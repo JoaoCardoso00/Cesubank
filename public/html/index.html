@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="shortcut icon" href="../img/Graphicloads-100-Flat-Bank.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cesubank</title>
+        <style>
+            .logo {
+                position: relative;
+                right: 5px;
+                top: 5px;
+                height: 150px;
+                width: 250px;
+            }
+            p {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body onload="verificar_cliente_atual()">
+        <main>
+            <div>
+                <h1 id="mensagem_bemvindo"></h1>
+            </div>
+            <div>
+                <img src="../img/Background_4.png" class="logo">
+            </div>
+            <div>
+                <p>Escolha a operação desejada</p>
+            </div>  
+            <div>
+                <a href="conta_corrente.html"><button class="button">Conta Corrente</button></a>
+                <a href="transferencias.html"><button class="button">Transferências Bancarias</button></a>
+            </div>
+        </main>
+        <script src="../js/index.js"></script>
+        <script src="../js/tela_login.js"></script>
+    </body>
+</html>

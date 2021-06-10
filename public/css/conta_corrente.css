@@ -1,0 +1,41 @@
+.valor_saldo {
+    position: relative;
+    right: 6em;
+    bottom: 22px;
+    size: 10px;
+    font-weight: bolder;
+}
+
+.valor_deposito {
+    bottom: 22px;
+    position: relative;
+    right: 9em;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.deposito {
+    padding: 5px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(35, 180, 35);
+    margin: 2px;
+}
+
+.saque {
+    padding: 5px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(207, 61, 61);
+    margin: 2px;
+}
+
+
+.transferencia {
+    padding: 5px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(70, 91, 209);
+    margin: 2px;
+}

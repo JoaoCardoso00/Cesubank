@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="shortcut icon" href="../img/Graphicloads-100-Flat-Bank.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/login.css">
+        <link rel="stylesheet" href="../css/conta_corrente.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cesubank</title>
+        <style>
+            .senha_msg {
+                position: relative;
+                right: 20px;
+                top: 20px;
+            }
+            .logo {
+                position: absolute;
+                top: 24em;
+                left: 60px;
+            }
+            .valor_deposito {
+                position: relative;
+                margin: 1px;
+            }
+            .senha {
+                bottom: 10em;
+            }
+            .login {
+                position: absolute;
+                right: 7.9em;
+                bottom: 3em;
+            }
+        </style>
+    </head>
+    <body onload="atualizar_saldo()">
+        <div>
+            <label class="error_message" id="mensagem_erro" onmouseover="tirar_erro()"></label>
+        </div>
+        <main>
+            <div>
+                <h1>Bem vindo a sessão de transferencias</h1>
+            </div>
+            <div>
+                <h2>Digite a quantidade da transferencia e sua senha</h2>
+            </div>
+            <div>
+                <p class="senha_msg" id="senha_interface">Senha:</p>
+            </div>
+            <div>
+                <p id="valor_saldo" class="valor_saldo">Saldo:</p>
+            </div>
+            <div>
+                <input type="number" id="valor_transferencia" class="valor_deposito" placeholder="valor a ser transferido">
+            </div>
+            <div>
+                <input type="text" id="nome_transferencia" class="valor_deposito" placeholder="nome do dono da conta">
+            </div>
+            <div>
+                <input type="text" id="email_transferencia" class="valor_deposito" placeholder="email do dono da conta">
+            </div>
+            <div class="senha">
+                <button id="senha_01" onclick="botao(`1`)" class="botoes_senha">1</button>
+                <button id="senha_02" onclick="botao(`2`)" class="botoes_senha">2</button>
+                <button id="senha_03" onclick="botao(`3`)" class="botoes_senha">3</button><br>
+                <button id="senha_04" onclick="botao(`4`)" class="botoes_senha">4</button>
+                <button id="senha_05" onclick="botao(`5`)" class="botoes_senha">5</button>
+                <button id="senha_06" onclick="botao(`6`)" class="botoes_senha">6</button><br>
+                <button id="senha_07" onclick="botao(`7`)" class="botoes_senha">7</button>
+                <button id="senha_08" onclick="botao(`8`)" class="botoes_senha">8</button>
+                <button id="senha_09" onclick="botao(`9`)" class="botoes_senha">9</button><br>
+                <button id="erase" onclick="erase()" class="botoes_senha"><</button>
+                <button id="senha_00" onclick="botao(`0`)" class="botoes_senha">0</button><br><br>
+            </div>
+            <div>
+                <img src="../img/Background_4.png" class="logo">
+            </div>
+            <div class="login_button">
+                <button onclick="transferir()" class="login">Transferir</button>
+            </div>
+            <div>
+                <a href="transferencias.html"><img src="../img/voltar.png" class="back_button"></a>
+            </div>
+        </main>
+        <script src="../js/index.js"></script>
+        <script src="../js/transferencias.js"></script>
+    </body>
+</html>

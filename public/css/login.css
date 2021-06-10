@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+#email {
+    width: 20em;
+    height: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    left: 30px;
+    bottom: 25.5em;
+}
+
+.email_msg {
+    font-weight: bold;
+    position: relative;
+    right: 12.5em;
+    top: 33px;
+}
+
+.senha {
+    position: relative;
+    left: 170px;
+    bottom: 4em;
+    background-color: #026875;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.senha_msg {
+    font-weight: bold;
+    position: relative;
+    left: 18.3em;
+    bottom: 50px;
+    text-align: left;
+}
+
+.botoes_senha {
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.login_button {
+    position: relative;
+    left: 10.5em;
+    bottom: 20px;
+}
+
+.login {
+    font-size: 1.5em;
+    font-weight: bolder;
+    background-color:white ;
+    width: 9em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
+}
+
+#erase {
+    position: absolute;
+    left: 20px;
+}

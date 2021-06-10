@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="shortcut icon" href="../img/Graphicloads-100-Flat-Bank.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/conta_corrente.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cesubank</title>
+        <style>
+            ul {
+                background-color: #b4d2e6;
+                display: inline-block;
+                width: auto;
+                padding: 25px;
+                width: 150px;
+                border-radius: 10px;
+                text-align: center;
+            }
+            h2 {
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body onload="atualizar_extrato()">
+        <main>
+            <div>
+                <h1>Bem vindo a sessão de extrato</h1>
+            </div>
+            <div>
+                <h2>Verde = Depositos | Vermelho = Saque | azul = transferencias</h2>
+            </div>
+            <div>
+                <ul type ="disc" id="lista_extrato">
+                </ul>
+            </div>
+            <div>
+                <a href="conta_corrente.html"><img src="../img/voltar.png" class="back_button"></a>
+            </div>
+        </main>
+        <script src="../js/conta_corrente.js""></script>
+        <script src="../js/index.js"></script>
+    </body>
