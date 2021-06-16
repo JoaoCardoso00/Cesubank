@@ -20,5 +20,3 @@ senha: 56394
 email: "mariarocha@gmail.com"
 senha: 36837
 
-
-but seriously dont look at this project it's pure garbage
